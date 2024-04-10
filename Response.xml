@@ -1,11 +1,27 @@
-<request-parameters>
+<request>
+  <accept_datause_restrictions>true</accept_datause_restrictions>
+  <data-format>xml</data-format>
+  <database>D76</database>
+  <query_parameters>
     <parameter>
-        <name>database</name>
-        <value>D76</value>
+      <name>underlying_cause_of_death</name>
+      <value>all_causes</value>
     </parameter>
     <parameter>
-        <name>measure</name>
-        <value>specificMeasureID</value>
+      <name>year</name>
+      <value>from_1999_to_2020</value>
     </parameter>
-    <!-- Add more parameters as needed -->
-</request-parameters>
+    <parameter>
+      <name>group_by</name>
+      <value>state</value>
+    </parameter>
+    <parameter>
+      <name>group_by</name>
+      <value>year</value>
+    </parameter>
+    <parameter>
+      <name>format</name>
+      <value>xml</value>
+    </parameter>
+  </query_parameters>
+</request>
