@@ -1,4 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
+<parameter>
+<name>accept_datause_restrictions</name>
+<value>true</value>
+</parameter> 
 <request-parameters>
 	<parameter>
 		<name>B_1</name>
