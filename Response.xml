@@ -1,15 +1,11 @@
-<request>
-    <database>D76</database>
-    <parameters>
-        <measure>specificMeasureID</measure>
-        <timeframe>2020-2024</timeframe>
-        <geographicLevel>State</geographicLevel>
-        <demographic>AgeGroup</demographic>
-    </parameters>
-    <conditions>
-        <condition type="geographic" value="USA"/>
-        <condition type="time" value="2020-2024"/>
-    </conditions>
-    <grouping>AgeGroup</grouping>
-    <format>XML</format>
-</request>
+<request-parameters>
+    <parameter>
+        <name>database</name>
+        <value>D76</value>
+    </parameter>
+    <parameter>
+        <name>measure</name>
+        <value>specificMeasureID</value>
+    </parameter>
+    <!-- Add more parameters as needed -->
+</request-parameters>
