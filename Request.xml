@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <request-parameters>
+  <accept_datause_restrictions>true</accept_datause_restrictions>
 	<parameter>
 		<name>accept_datause_restrictions</name>
 		<value>true</value>
