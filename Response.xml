@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <request>
-  <accept_datause_restrictions>true</accept_datause_restrictions>
+  <parameter>
+<name>accept_datause_restrictions</name>
+<value>true</value>
+  </parameter> 
   <data-format>xml</data-format>
   <database>D76</database>
   <query_parameters>
